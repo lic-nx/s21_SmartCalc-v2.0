@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1493</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>99999</width>
+    <height>99999</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>20</y>
+      <width>791</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QPushButton" name="but_6">
+         <property name="text">
+          <string>(</string>
+         </property>
+         <property name="shortcut">
+          <string>(</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>8</string>
+         </property>
+         <property name="shortcut">
+          <string>8</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="but_19">
+         <property name="text">
+          <string>asin(</string>
+         </property>
+         <property name="shortcut">
+          <string>Shift+S</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="but_11">
+         <property name="text">
+          <string>^(</string>
+         </property>
+         <property name="shortcut">
+          <string>^</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="text">
+          <string>mod</string>
+         </property>
+         <property name="shortcut">
+          <string>M</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="QPushButton" name="but_13">
+         <property name="text">
+          <string>del</string>
+         </property>
+         <property name="shortcut">
+          <string>Backspace</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QPushButton" name="but_1">
+         <property name="text">
+          <string>1</string>
+         </property>
+         <property name="shortcut">
+          <string>1</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QPushButton" name="but_9">
+         <property name="text">
+          <string>+</string>
+         </property>
+         <property name="shortcut">
+          <string>+</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="but_15">
+         <property name="text">
+          <string>log(</string>
+         </property>
+         <property name="shortcut">
+          <string>L</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="text">
+          <string>=</string>
+         </property>
+         <property name="shortcut">
+          <string>=</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="but_20">
+         <property name="text">
+          <string>acos(</string>
+         </property>
+         <property name="shortcut">
+          <string>Shift+C</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="but_4">
+         <property name="text">
+          <string>tan(</string>
+         </property>
+         <property name="shortcut">
+          <string>T</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="text">
+          <string>x</string>
+         </property>
+         <property name="shortcut">
+          <string>X</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="but_18">
+         <property name="text">
+          <string>atan(</string>
+         </property>
+         <property name="shortcut">
+          <string>Shift+T</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="but_14">
+         <property name="text">
+          <string>clean</string>
+         </property>
+         <property name="shortcut">
+          <string>Shift+Backspace</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>7</string>
+         </property>
+         <property name="shortcut">
+          <string>7</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QPushButton" name="but_3">
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="shortcut">
+          <string>-</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="text">
+          <string>9</string>
+         </property>
+         <property name="shortcut">
+          <string>9</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="text">
+          <string>2</string>
+         </property>
+         <property name="shortcut">
+          <string>2</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="but_8">
+         <property name="text">
+          <string>)</string>
+         </property>
+         <property name="shortcut">
+          <string>)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QPushButton" name="but_10">
+         <property name="text">
+          <string>/</string>
+         </property>
+         <property name="shortcut">
+          <string>/</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="but_5">
+         <property name="text">
+          <string>cos(</string>
+         </property>
+         <property name="shortcut">
+          <string>C</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="but_2">
+         <property name="text">
+          <string>sin(</string>
+         </property>
+         <property name="shortcut">
+          <string>S</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>4</string>
+         </property>
+         <property name="shortcut">
+          <string>4</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QPushButton" name="but_7">
+         <property name="text">
+          <string>*</string>
+         </property>
+         <property name="shortcut">
+          <string>*</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>5</string>
+         </property>
+         <property name="shortcut">
+          <string>5</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QPushButton" name="but_0">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="shortcut">
+          <string>0</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="but_16">
+         <property name="text">
+          <string>ln(</string>
+         </property>
+         <property name="shortcut">
+          <string>L</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>6</string>
+         </property>
+         <property name="shortcut">
+          <string>6</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="text">
+          <string>3</string>
+         </property>
+         <property name="shortcut">
+          <string>3</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="but_17">
+         <property name="text">
+          <string>sqrt(</string>
+         </property>
+         <property name="shortcut">
+          <string>Q</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="text">
+          <string>,</string>
+         </property>
+         <property name="shortcut">
+          <string>,</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">all_btns</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x = </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>639</x>
+      <y>440</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>построить график</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>859</x>
+      <y>30</y>
+      <width>601</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sta">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>440</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>в диапазоне от </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>440</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>до </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>470</y>
+      <width>162</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>калькулятор кредита</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="xValue">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>440</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>5</number>
+    </property>
+    <property name="maximum">
+     <double>9999.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="start">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>440</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="minimum">
+     <double>-99999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>99999.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-100.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="end">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>440</y>
+      <width>141</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="minimum">
+     <double>-99999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>99999.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>100.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="all_btns"/>
+ </buttongroups>
+</ui>
